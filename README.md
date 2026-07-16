@@ -20,14 +20,64 @@ Backend
 
 ## Funcionalidades
 
-- Login com autenticação JWT
+ ### Autenticação
+- Login com JWT
+- Cadastro de usuários
+- Controle de permissões por perfil
+### Estoque
 - Cadastro de materiais
-- Consulta de estoque
+- Atualização de materiais
+- Exclusão de materiais
+- Consulta por categoria
+- Consulta de materiais sem estoque
+### Requisições
 - Criação de requisições
-- Histórico de requisições
-- Controle de usuários
-- Documentação Swagger
+- Aprovação e rejeição
+- Histórico
+- Consulta por usuário
+---
 
+## Telas do Sistema
+
+### Login
+
+![Login](assets/login.png)
+
+---
+
+### Dashboard do Administrador
+
+![Dashboard Admin](assets/dashboardestoque.png)
+
+---
+
+### Dashboard do Usuário
+
+![Dashboard User](assets/dashboardusuario.png)
+
+---
+
+### Estoque
+
+![Estoque](assets/estoque.png)
+
+---
+
+### Histórico
+
+![Historico](assets/historicousuario.png)
+
+### Histórico Estoque
+
+![HistoricoEstoque](assets/historicoestoque.png)
+
+### Requisição
+
+![RequisicaoCriar](assets/requisicaocriar.png)
+![Requisicao](assets/requisicao.png)
+![Requisicoes](assets/requisicoes.png)
+
+---
 ## Arquitetura
 
 - Controller
@@ -37,7 +87,9 @@ Backend
 - Entity
 
 
-## Autor
+## Autores
 
 - Back End - Otávio C. Borges
 - Front End - Roger Aguiar
+
+Observação: Este repositório concentra o desenvolvimento da API REST. O frontend foi desenvolvido em colaboração, sendo de responsabilidade de Roger Aguiar, enquanto toda a implementação do backend foi desenvolvida por Otávio C. Borges.

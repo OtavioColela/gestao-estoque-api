@@ -25,6 +25,7 @@ public class RequisicaoEntity {
     @JsonManagedReference
     private List<ItemPedido> itemPedido;
     private LocalDateTime dataRequisicao;
+    @Enumerated(EnumType.STRING)
     private StatusPedido statusPedido;
     @ManyToOne
     @JoinColumn(name = "solicitante_id")

@@ -33,6 +33,7 @@ public class    SecurityConfigurations {
             "/swagger-ui/**",
             "/swagger-ui.html",
             "/swagger-resources/**",
+            "/swagger-ui-custom.html",
             "/webjars/**"
     };
 
