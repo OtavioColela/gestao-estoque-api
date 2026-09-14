@@ -8,6 +8,6 @@ RUN mvn dependency:go-offline
 
 COPY . .
 
-RUN mvn clean package -DskipTests
+RUN mvn clean package -Dmaven.test.skip=true
 
 CMD ["sh", "-c", "java -jar target/*.jar"]
