@@ -42,8 +42,21 @@ Após configurar, execute:
 - Swagger / OpenAPI
 
 ## Funcionalidades
-
-<<<<<<< HEAD
+### Autenticação
+  - Login com JWT
+  - Cadastro de usuários
+  - Controle de permissões por perfil
+### Estoque
+  - Cadastro de materiais
+  - Atualização de materiais
+  - Exclusão de materiais
+  - Consulta por categoria
+  - Consulta de materiais sem estoque
+### Requisições
+- Criação de requisições
+- Aprovação e rejeição
+- Histórico
+- Consulta por usuário
 ### Autenticação
 - Login com JWT
 - Cadastro de usuários
